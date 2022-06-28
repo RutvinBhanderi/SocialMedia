@@ -1,0 +1,107 @@
+.PostDetail__main{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color: grey;
+    border-radius: 3px;
+}
+.PostDetail__main span{
+    font-size: 20px;
+    margin: 5px 10px;
+    display: block;
+}
+.Post__details{
+    display: flex;
+}
+.Post__detailInfo{
+    flex: 0.6;
+    margin-right: 10px;
+}
+.Post__detailImage{
+    flex: 0.4;
+    width: 100%;
+}
+.Post__detailImage img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.creator__name{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 8px;
+}
+.post__title{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+}
+.post__tags{
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: 400;
+    color:rgb(211, 211, 211);
+}
+.post__description{
+    width: 100%;
+    font-size: 15px;
+    margin-top: 3px;
+    
+}
+.post__time{
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+.post__realtimeChat,.post__comment{
+    padding: 10px 0;
+    font-size: 15px;
+}
+.post__comment{
+    height: 150px;
+}
+.recommanded__post{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    padding: 5px 20px;
+    grid-gap: 15px;
+}
+.rpost{
+    height: 300px;
+}
+.recommanded__post .rpost .rpost__image{
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+.recommanded__post .rpost .rpost__image img{
+    height: 100%;
+    object-fit: contain;
+    /* position: absolute;
+    left: 10;
+    top: 0; */
+    border-radius: none;
+}
+.recommanded__post .rpost .rpost__creator{
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.recommanded__post .rpost .rpost__title{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 3px;
+    text-transform: capitalize;
+}
+.recommanded__post .rpost .rpost__desc{
+    max-height: 50px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 3px;
+    
+}
+.recommanded__post .rpost .rpost__like{
+    margin-bottom: 3px;
+    font-size: 12px;
+}

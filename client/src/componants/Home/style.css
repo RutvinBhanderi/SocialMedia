@@ -1,0 +1,72 @@
+.Home{
+    display: flex;
+    padding: 2rem;
+    margin-top: 0.5em;
+}
+/* .Home__Posts{
+    flex: 0.6;
+    width: 600px;
+}
+.Home__Form{
+    flex: 0.4;
+} */
+.form{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+}
+.form .searchForm{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.54);
+    padding: 10px;
+    background-color: #7B7B7B;
+    margin-bottom: 5px;
+}
+.form .searchForm .searchPost{
+   font-size: 20px;
+   outline: none;
+   border: 1px solid rgb(93, 93, 93);
+   padding: 10px;
+   border-radius: 3px;
+   background-color: grey;
+   font-weight: 900;
+   color: rgba(255, 247, 247, 0.54);;
+}
+.searchPost::placeholder{
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+}
+.form .searchForm .searchPost:hover{
+    border:1px solid black;
+}
+.form .searchForm .searchPost:focus{
+    border:2px solid #3f51b5;
+}
+.form .searchForm  >.MuiFormControl-root .MuiFormLabel-root{
+    color: rgba(255, 255, 255, 0.54);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.form .searchForm  >.MuiFormControl-root .WAMuiChipInput-outlined-5 input{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.form .searchForm  >.MuiFormControl-root .MuiChip-root{
+    color: black;
+    font-size: 1.2rem;
+}
+.pagination{
+    width: 100%;
+    background-color: grey;
+    margin-top: 10px;
+}
+@media (max-width:550px) {
+    .Home{
+        flex-direction:column-reverse
+    }
+    .Form{
+        margin: 0 10px 20px 10px;
+    }
+}

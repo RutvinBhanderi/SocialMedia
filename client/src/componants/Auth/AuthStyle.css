@@ -1,0 +1,60 @@
+.Auth{
+    width: 100%;
+    height: 78vh;
+    margin-top:5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* clip-path: polygon(0 49%, 0% 100%, 100% 100%); */
+}
+.Auth__main{
+    z-index: 2;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(45deg,rgb(117, 117, 117) 15%,rgb(119, 119, 253) 72%,rgb(117, 117, 117) 18%);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    transition: all 0.5ms;
+}
+.Auth__form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+.Auth__signup{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;   
+}
+.Auth__signup input:nth-child(1){
+    margin-right: 10px;
+}
+.Auth__form input{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 15px 8px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.Auth__form >.MuiButtonBase-root{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.Auth__form >.MuiButton-root{
+    padding: 8px;
+    font-size: 1.2rem;
+}
+.Auth__heading{
+    font-size: 25px;
+    color: #fff;
+}

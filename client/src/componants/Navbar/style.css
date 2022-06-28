@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:ital,wght@1,100&display=swap');
+:root{
+   --shadow:5px 5px 25px rgba(0, 0, 0, 0.25);
+}
+.Navbar__main {
+    width: 100vw;
+    height: 6rem;
+}
+
+.Navbar {
+    /* min-width:600px;  */
+    font-family: 'Questrial', sans-serif;
+    margin: 2em 5em;
+    height: 100%;
+    background: #7B7B7B;
+    box-shadow:inset 6px 6px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 43px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navbar__info {
+    margin-right: 2em;
+    display: flex;
+    flex: 0.6;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Navbar__info>.MuiAvatar-colorDefault {
+    color: #A9F8F3;
+    background-color: #a8a8a8;
+}
+.Navbar__Name h1{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 3em;
+}
+.Navbar__logo{
+    flex: 0.4;
+    color: #A5A6F6;
+    font-size: 2rem;
+    margin:auto 1.5em;
+    cursor: pointer;
+}
+.Navbar__avtar{
+    margin-right: 1em;
+    text-transform: uppercase;
+}
+.Navbar__info>.MuiAvatar-root {
+    width: 2.4em;
+    height: 2.4em;
+    font-size: 2rem;
+    box-shadow: var(--shadow)
+}
+
+.Navbar__button>.MuiButton-root {
+    padding: 0.4em 1.7em;
+    background: #7B7B7B;
+    font-size: 1.6rem;
+    font-weight: 500;
+    box-shadow: var(--shadow);
+    border-radius: 30px;
+    color: #EC9898;
+    margin: 0;
+}
+.Navbar__Name{
+    font-family: "Red Hat Display";
+    text-transform: uppercase;
+    color: rgba(169, 248, 243, 0.58);
+}
+
+/* @media (max-width:400px){
+    .Navbar{
+        margin: 1em 1em;
+    }
+    .Navbar__logo{
+        flex: 0.2;
+        font-size: 1.5rem;
+    }
+    .Navbar__info{
+        flex: 0.8;
+    }
+    .Navbar__Name h1{
+        font-size: 1rem;
+    }
+    .Navbar__info>.MuiAvatar-root {
+        width: 2em;
+        height: 2em;
+        font-size: 1.5rem;
+    }
+    .Navbar__button>.MuiButton-root {
+        font-size: 1rem;
+    }
+} */
+@media (max-width:866px){
+    .Navbar__info{
+        flex: 0.8;
+    }
+    .Navbar__logo{
+        flex: 0.2;
+        font-size: 1.9rem;
+    }
+    .Navbar__Name h1{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:640px){
+    .Navbar__info{
+        flex: 0.72;
+    }
+    .Navbar__logo{
+        flex: 0.28;
+        font-size: 1rem;
+    }
+    .Navbar__Name h1{
+        font-size: 1rem;
+        margin-right: 1em;
+    }
+    .Navbar__info>.MuiAvatar-root {
+        width: 2.1em;
+        height: 2.1em;
+        font-size: 1.5rem;
+    }
+    .Navbar__button>.MuiButton-root {
+        padding: 0.3em 1.7em;
+        font-size: 1.3rem;
+        margin: 0;
+    }
+}
+@media (max-width:430px){
+    html{
+        font-size: 40%;
+    }
+    .Navbar__info{
+        flex: 0.8;
+    }
+    .Navbar__logo{
+        flex: 0.2;
+        font-size: 1.5rem;
+    }
+    .Navbar__Name h1{
+        font-size: 1.5rem;
+    }
+}
+
+

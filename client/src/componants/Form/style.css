@@ -1,0 +1,44 @@
+.Form{
+    flex: 0.3;
+}
+.Form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #7B7B7B;
+    height: 300px;
+}
+
+.Form__Textfield{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.25);
+    padding: 1.5rem;
+    font-size: 15px;
+    background-color: #606060;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.Form__Textfield::placeholder{
+    color: rgb(187, 187, 187);
+}
+.Form__submitbutton Button,.Form__resetbutton Button{
+    width: 100%;
+}
+.Form__submitbutton > .MuiButton-contained
+{
+    background-color: #6CCAE8;
+}
+.Form__submitbutton > .MuiButtonBase-root
+{
+    margin: 1rem 0;
+    border: 1px solid white;
+}
+.Form__resetbutton  > .MuiButton-contained{
+    background-color: #F26A6A;
+}
+.Form__resetbutton > .MuiButtonBase-root{
+    margin-bottom: 1rem;
+    border: 1px solid white;
+}
